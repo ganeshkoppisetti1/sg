@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="hub.css">
+</head>
+<body>
+    <header>
+        <h1>STUDY HUB</h1>
+        <nav>
+            <button onclick="showSection('home')">Home</button>
+            <button onclick="showSection('courses')">Courses</button>
+            <button onclick="showSection('quize')">Quiz</button>
+            <button onclick="showSection('contact')">Contact</button>
+        </nav>
+        <div class="logo-container">
+            <img src="studyhub.jpg" width="100" height="100">
+        </div>
+    </header>
+
+    <main>
+        <marquee>WELCOME TO STUDY HUB LEARNING</marquee>
+        <main id="content">
+            
+            <section id="home" class="section active">
+                <h2>Home</h2>
+                <img src="Elearning1.jpg" width="1220px">
+                <div class="container">
+                    <div class="text">
+                        <h2>Study Hub</h2>
+                        <p>A Study Hub Online E-Learning Platform is a digital space designed to offer educational resources.and courses to students, educators, or professionals who seek to enhance their learning experiences. The platform is typically accessible via the internet and can host a variety of learning materials and interactive features that cater to various fields of study
+                            <li>Pre-recorded video lessons and live webinars with instructors or experts in the field.</li>
+                            <li>Some platforms offer certification for completed courses, and advanced platforms might even partner with universities or institutions to offer accredited degrees.</li></p>
+                    </div>
+                    <img src="Elearning.jpg" width="600" height="300">    
+                </div>
+                <div class="container2">
+                    <img src="h4.jpg"width="600"height="300">
+                    <div class="text">
+                        <h2>Personalized Learning Experience</h2>
+                        <p>
+                        <li><strong>Customizable Learning Paths:</strong> Many eLearning platforms allow learners to complete courses at their own pace, without strict deadlines.</li>
+                        <li><strong>Progress Tracking:</strong>Learners can track their progress, set goals, and receive notifications or reminders to stay on track</li>
+                        <li><strong>Self-paced Learning:</strong>Many eLearning platforms allow learners to complete courses at their own pace, without strict deadlines.</li>
+                        <li><strong>Mobile Learning</strong> Accessibility on smartphones and tablets ensures that learners can study anywhere and anytime.</li>
+                        </p>
+                    </div>
+                    </div>
+                    <div class="container">       
+                        <div class="text">
+                            <h2>Supportive Community</h2>
+                            <p>
+                                <li><strong>Practical Projects:</strong> Study Hub eLearning platforms may include real-world projects and case studies that help learners apply theoretical knowledge to practical scenarios.</li>
+                                <li><strong>Internships & Networking:</strong>Some platforms connect students with internship opportunities or professional networks to help build their career after completing courses</li>
+                                <li><strong>Career Services:</strong>Some eLearning hubs provide career development resources, such as resume-building workshops, job search assistance, and networking opportunities with employers.</li>
+                                <li><strong>Discussion Forums & Groups:</strong>Learners could collaborate through discussion forums, group projects, and study groups, fostering a sense of community and collective learning.</li>
+                            </p>
+                        </div>
+                    <img src="h3.jpg"width="600"height="300">
+                    </div>
+                    <div class="container2">
+                        <img src="h1.jpg"width="600"height="300">
+                        <div class="text">
+                            <h2>Flexible Learning Options:</h2>
+                            <p>
+                             <li><strong>Points & Rewards:</strong>Some platforms reward users with points or credits for completing assignments, which can be used for future courses or features.</li>
+                             <li><strong>Tutoring & Coaching:</strong>For more personalized learning, Study Hub might offer one-on-one tutoring or coaching sessions with subject matter experts.</li>
+                             <li><strong>Multilingual Support:</strong>To cater to a global audience, Study Hub may offer courses in various languages.</li>
+                             <li><strong>Self-paced Learning:</strong> Many eLearning platforms allow learners to complete courses at their own pace, without strict deadlines.</li>
+                            </p>
+                        </div>
+                        </div>
+                        <h2>About Us</h2>
+                    <p>We are dedicated to providing high-quality online education.
+                        An e-learning platform is a digital tool or system
+                         designed to deliver educational content online. 
+                         These platforms offer features like course delivery 
+                         (videos, text, quizzes), user interaction (discussions, forums), progress tracking, and certifications. They can be used for various types of education, including MOOCs, corporate training, and institutional courses. E-learning platforms are accessible anytime and anywhere, often across devices, and can include multimedia, adaptive learning, and gamification elements to enhance engagement. Examples include Coursera, Udemy, Khan Academy, and Moodle. They offer flexibility, scalability, and global reach but
+                         may face challenges like engagement and technical barriers.
+                    </p>
+                    </section>
+
+            </section>
+
+            
+            <section id="courses" class="section">
+                <h2>Courses</h2>
+                <ul>
+                    <li>
+                        <a href="webdevlopment.html">
+                            <img src="webdevelopment1.jpg" alt="Web Development" class="course-image">WEB DEVELOPMENT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="python.html">
+                            <img src="python.jpg" alt="Python" class="course-image">PYTHON
+                        </a>
+                    </li>
+                    <li>
+                        <a href="aws.html">
+                            <img src="aws1.jpg" alt="AWS" class="course-image">
+                            AWS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="java.html">
+                            <img src="java.jpg" alt="Java" class="course-image">
+                            JAVA
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mysql.html">
+                            <img src="mysql.jpg" alt="MySQL" class="course-image">
+                            MY SQL
+                        </a>
+                    </li>
+                </ul>
+
+                    
+                </ul>
+            </section>
+
+            
+            <section id="quize" class="section">
+                <div class="quiz-container">
+                    <h1>Quiz</h1>
+                    <form id="quizForm">
+                        
+                        <div class="question" id="question1">
+                            <p>1. What does HTML stand for?</p>
+                            <input type="radio" name="q1" value="a"> a) Hyper Text Markup Language<br>
+                            <input type="radio" name="q1" value="b"> b) Home Tool Markup Language<br>
+                            <input type="radio" name="q1" value="c"> c) Hyperlink and Text Markup Language<br>
+                            <button type="button" onclick="nextQuestion(1)">Next</button>
+                        </div>
+
+                        
+                        <div class="question" id="question2" style="display:none;">
+                            <p>2. Who is making the Web standards?</p>
+                            <input type="radio" name="q2" value="a"> a) Microsoft<br>
+                            <input type="radio" name="q2" value="b"> b) Google<br>
+                            <input type="radio" name="q2" value="c"> c) The World Wide Web Consortium<br>
+                            <button type="button" onclick="nextQuestion(2)">Next</button>
+                        </div>
+
+                        <div class="question" id="question3" style="display:none;">
+                            <p>3. Where in an HTML document is the correct place to refer to an external style sheet?</p>
+                            <input type="radio" name="q3" value="a"> a) In the body section<br>
+                            <input type="radio" name="q3" value="b"> b) In the  head section<br>
+                            <input type="radio" name="q3" value="c"> c) At the end of the document<br>
+                            <button type="button" onclick="nextQuestion(3)">Next</button>
+                        </div>
+
+                        
+                        <div class="question" id="question4" style="display:none;">
+                            <p>4. How do you call a function named "myFunction"?</p>
+                            <input type="radio" name="q4" value="a"> a) call function myFunction<br>
+                            <input type="radio" name="q4" value="b"> b) call myFunction<br>
+                            <input type="radio" name="q4" value="c"> c) myFunction <br>
+                            <button type="button" onclick="nextQuestion(4)">Next</button>
+                        </div>
+
+                        
+                        <div class="question" id="question5" style="display:none;">
+                            <p>5. Which MySQL statement is used to select data from a database?</p>
+                            <input type="radio" name="q5" value="a"> a) OPEN<br>
+                            <input type="radio" name="q5" value="b"> b) SELECT<br>
+                            <input type="radio" name="q5" value="c"> c) GET<br>
+                            <button type="button" onclick="nextQuestion(5)">Next</button>
+                        </div>
+
+                        
+                        <div class="question" id="question6" style="display:none;">
+                            <p>6. What is a correct syntax to output "Hello World" in Python?</p>
+                            <input type="radio" name="q6" value="a"> a) p("Hello World")<br>
+                            <input type="radio" name="q6" value="b"> b) print("Hello world")<br>
+                            <input type="radio" name="q6" value="c"> c) print"Hello world"<br>
+                            <button type="button" onclick="nextQuestion(6)">Next</button>
+                        </div>
+
+                        
+                        <div class="question" id="question7" style="display:none;">
+                            <p>7. How do you insert COMMENTS in Java code?</p>
+                            <input type="radio" name="q7" value="a"> a) /*This is a comment<br>
+                            <input type="radio" name="q7" value="b"> b) #This is a comment<br>
+                            <input type="radio" name="q7" value="c"> c) //This is a comment<br>
+                            <button type="button" onclick="nextQuestion(7)">Next</button>
+                        </div>
+
+                        
+                        <div class="question" id="question8" style="display:none;">
+                            <p>8. Which AWS service reduces network latency?</p>
+                            <input type="radio" name="q8" value="a"> a) Aws Direct Connect<br>
+                            <input type="radio" name="q8" value="b"> b) Amazon CloudFront<br>
+                            <input type="radio" name="q8" value="c"> c) Aws Transit Gateway<br>
+                            <button type="button" onclick="nextQuestion(8)">Next</button>
+                        </div>
+
+                        
+                        <div class="question" id="question9" style="display:none;">
+                            <p>9. What is the correct file extension for Python files?</p>
+                            <input type="radio" name="q9" value="a"> a) .pyt<br>
+                            <input type="radio" name="q9" value="b"> b) .py<br>
+                            <input type="radio" name="q9" value="c"> c) .pt<br>
+                            <button type="button" onclick="nextQuestion(9)">Next</button>
+                        </div>
+
+                        
+                        <div class="question" id="question10" style="display:none;">
+                            <p>10. Which MySQL statement is used to delete data from a database?</p>
+                            <input type="radio" name="q10" value="a"> a) DELETE<br>
+                            <input type="radio" name="q10" value="b"> b) COLLAPSE<br>
+                            <input type="radio" name="q10" value="c"> c) REMOVE<br>
+                            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+                        </div>
+                    </form>
+                    <div id="result" class="result"></div>
+                </div>
+            </section>
+
+            
+            <section id="contact" class="section">
+                <h2>Contact Us</h2>
+                <div class="contact-details">
+                    <p><strong>Office:</strong>123 Street, Bangalore, Karnataka</p>
+                    <p><strong>Email:</strong>@studyhub1.com</p>
+                    <p><strong>Phone:</strong> +91 888 897 8939</p>
+                </div>
+            </section>
+        </main>
+    </main>
+    <script src="new.js"></script>
+</body>
+</html>

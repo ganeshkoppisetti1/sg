@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav button {
+    background-color: #b878f5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+header nav button:hover {
+    background-color: #bfe3f1;
+}
+
+header .logo-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.welcome-banner {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.welcome-banner h2 {
+    display: inline-block;
+    animation: scrollText 10s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+main {
+    padding: 20px;
+}
+.section {
+    display: none;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section.active {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.course-image {
+    width: 50px; 
+    height: 50px;
+    margin-right: 15px; 
+    border-radius: 5px; 
+    object-fit: cover; 
+}
+
+#courses a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    color: #fff;
+    background-color: #a9f7ac;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#courses a:hover {
+    background-color: #7dbef3;
+    transform: scale(1.05); 
+}
+#quiz {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h3 {
+    font-size: 1.2rem;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3c07fd;
+    color: rgb(190, 226, 236);
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+    
